@@ -1,0 +1,126 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body section  */
+.body {
+  background-color: #fefcf3;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Header section  */
+.header-section {
+  background-color: #f9fafb;
+  padding: 16px 8px;;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0px 64px;
+}
+.navbar .navbar-links {
+  display: flex;
+  justify-content: center; /* Align items horizontally in center */
+  align-items: center; /* Align items vertically in center */
+  gap: 24px;
+}
+.navbar-brand p {
+  font-size: 28px;
+  font-weight: bold;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #dba39a;
+  border-radius: 8px;
+  max-width: 140px;
+  margin: 4px 0px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-left {
+  padding-left: 16px;
+}
+.banner-left h1{
+  margin: 8px 0px;
+}
+.banner div{
+  flex: 1;
+}
+.banner img{
+  max-width: 100%;
+  height: auto;
+  display: block; 
+}
+
+/* About me section */
+.about-me-container {
+  background-color: #f8ede3;
+  padding: 24px 32px;
+  margin: 32px 0px;
+}
+.about-me {
+  margin: 8px 32px 8px 32px;
+  padding: 16px 0px 16px 0px;
+  background-color: #dfd3c3;
+  border: none;
+  border-radius: 32px;
+}
+.about-me h3 {
+  text-align: center;
+  font-size: 36px;
+}
+.about-me .para-1 {
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 12px;
+}
+.about-me .personal-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+.about-me .personal-details div {
+  flex: 1; // Each div takes equal spaces
+  text-align: center;
+}
+
+.about-me .personal-details p {
+  margin: 10px 0;
+}
+
+/* Experience section  */
+.experience-div h3 {
+  text-align: center;
+  font-size: 36px;
+}
+.experience-div .para {
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 64px;
+  margin: 6px auto 12px auto;
+}
+.experience-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  gap: 8px;
+}
+.experience-card {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.experience-card p {
+  padding-top: 8px;
+}
